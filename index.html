@@ -9,10 +9,16 @@
         body {
             background-color: rgb(51, 11, 11);
         }
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
 
         form {
             width: 50%;
-            margin: auto 9%;
+            /* margin: auto 9%; */
             padding: 20px;
             background-color: rgba(255, 251, 0, 0.671);
             border-radius: 5px;
@@ -73,7 +79,7 @@
 
 <body>
 
-
+    <div>
     <h1>BLU WORK</h1>
         <form id="contactForm">
             <h3>AYUDANOS A LANZAR <br> <span>LA MEJOR VERSIÓN DE BLU WORK</span></h3>
@@ -89,6 +95,7 @@
             
             <input type="submit" value="Enviar">
         </form>
+    </div>
         
     <script>
         span = document.querySelectorAll('.error')
